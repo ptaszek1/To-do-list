@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.header-site {
+    background: #a9e4f7;
+    background: -moz-linear-gradient(top, #a9e4f7 0%, #0fb4e7 100%);
+    background: -webkit-linear-gradient(top, #a9e4f7 0%,#0fb4e7 100%);
+    background: linear-gradient(to bottom, #a9e4f7 0%,#0fb4e7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 );
+}
+.todo {
+    display: flex;
+    justify-content: center;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.checkboxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: bold;
+    padding: 0 50px;
+}
+.select {
+    display: flex;
+    justify-content: center;
+}
+.red {
+    color: red;
+    margin-right: 15px;
+}
+.yellow {
+    color: #FFFF00;
+    margin-right: 15px;
+}
+.green {
+    color: #0DED6B;
+}
+.topic {
+    align-items: center;
+}
+
+.border {
+    margin-top: 25px;
+    width: 100%;
+}
+.to-do-lists {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+/* Lista to do - dodawana*/
+.center-all {
+    display: flex;
+    justify-content: center;
+}
+
+.list-elem {
+    max-width: 250px;
+    background-color: white;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.to-do-date {
+    margin-top: -15px;
+    padding: 8px;
+    margin-right: 40px;
+
+}
+.to-do-topic {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #0fb4e7;
+}
+.to-do-text {
+    padding: 10px;
+}
+
+.fa-times {
+    padding: 10px;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    max-width: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/*Box Shadows colors:*/
+
+.red-shadow {
+    -webkit-box-shadow: inset 0px 0px 29px 4px rgba(226,37,43,1);
+    -moz-box-shadow: inset 0px 0px 29px 4px rgba(226,37,43,1);
+    box-shadow: inset 0px 0px 29px 4px rgba(226,37,43,1);
+}
+.yellow-shadow {
+    -webkit-box-shadow: inset 0px 0px 29px 4px rgba(255,216,0,1);
+    -moz-box-shadow: inset 0px 0px 29px 4px rgba(255,216,0,1);
+    box-shadow: inset 0px 0px 29px 4px rgba(255,216,0,1);
+}
+.green-shadow {
+    -webkit-box-shadow: inset 0px 0px 29px 4px rgba(13,237,107,1);
+    -moz-box-shadow: inset 0px 0px 29px 4px rgba(13,237,107,1);
+    box-shadow: inset 0px 0px 29px 4px rgba(13,237,107,1);
+}

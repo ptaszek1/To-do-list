@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="header-site">
+    <div class="description">
+        <h1>Topic:</h1>
+    </div>
+    <div class="todo">
+        <input type="text" style="width: 200px" placeholder="write your topic here...">
+    </div>
+    <div class="description">
+        <h1>Write your task:</h1>
+    </div>
+    <div class="todo">
+        <textarea cols="30" rows="10" placeholder="write your task here..."></textarea>
+        <button>Add</button>
+    </div>
+    <div class="checkboxes">
+        <p class="red">1. Important<input type="radio" data-color="red" name="colors"></p>
+        <p class="yellow">2. Medium<input type="radio" data-color="yellow" name="colors"></p>
+        <p class="green">3. Lowest<input type="radio" data-color="green" name="colors"></p>
+    </div>
+    <div class="select">
+        <p>Sort by:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <select>
+            <option value="important">Important</option>
+            <option value="lowest">Lowest</option>
+        </select>
+    </div>
+    <div class="center-all">
+        <div class="to-do-lists">
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
