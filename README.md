@@ -20,7 +20,7 @@
 
 # :sparkles:Demo
 
-Demon Link Here: https://ptaszek1.github.io/To-do-list/
+Demon Link Here: https://ptaszek1.github.io/To-do-list/.
 
-<img src="https://github.com/ptaszek1/To-do-list/blob/master/Javascript%20%26%20jQuery/img.jpg" width="600">
+<img src="https://github.com/ptaszek1/To-do-list/blob/master/img.jpg" width="600">
 
