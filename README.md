@@ -4,7 +4,7 @@
 
 # :sparkles:Clone
 
-> git clone link
+> git clone https://github.com/ptaszek1/To-do-list.git
 
 # :sparkles:Instructions:
 
