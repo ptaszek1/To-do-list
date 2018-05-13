@@ -24,3 +24,10 @@ Demon Link Here: https://ptaszek1.github.io/To-do-list/.
 
 <img src="https://github.com/ptaszek1/To-do-list/blob/master/img.jpg" width="600">
 
+# :sparkles: Technology:
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+
